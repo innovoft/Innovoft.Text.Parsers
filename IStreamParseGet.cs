@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Innovoft.Text
 {
-	public interface IStreamParseGet<T> : IIStreamParseProcess
+	public interface IStreamParseGet<T> : IStreamParseProcess
 	{
 		T Get();
 	}
