@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Innovoft.Text
 {
-	public sealed class DoublePEDStreamParser : IStreamParseGet<double>
+	public sealed class DoublePENDStreamParser : IStreamParseGet<double>
 	{
 		#region Fields
 		private int mode;
@@ -15,7 +15,7 @@ namespace Innovoft.Text
 		#endregion //Fields
 
 		#region Constructors
-		public DoublePEDStreamParser()
+		public DoublePENDStreamParser()
 		{
 		}
 		#endregion //Constructors
